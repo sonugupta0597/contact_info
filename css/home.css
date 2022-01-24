@@ -1,0 +1,128 @@
+*{
+    margin:0px;
+    padding: 0px;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top:5vh;
+}
+
+.home{
+    width:90vw;
+    height:90vh;
+    background-color:blanchedalmond;
+    display: flex;
+    flex:1;
+}
+.addNewUser{
+    flex:0.5;
+    background-color:rgb(240, 218, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newUser{
+    text-align: center;
+    font-size:40px;
+    font-weight: bold;
+}
+
+.form_div
+{
+    display: flex;
+    font-size:22px;
+    margin-top:10px;
+}
+
+.form_div label{
+    flex:.8;
+}
+
+input{
+    flex:1;
+    border:none;
+    outline:none;
+    padding:10px;
+    border-radius:5px;
+}
+
+.form_div input[type="submit"]
+{
+    font-size:26px;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.form_div input[type="submit"]:hover
+{
+    background-color:aqua;
+    color:white;
+}
+
+.allUsers
+{
+    flex:1;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:-400px;
+}
+
+.allUsers table {
+    width:90%;
+}
+
+td{
+    text-align: center;
+    width: 100px;
+}
+
+.btn{
+    font-size:14px;
+    color:white;
+    padding:5px;
+    border:none;
+    outline: none;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.delete{
+    background-color:red;
+}
+
+.update{
+    background-color:purple;
+}
+
+.deleteUser{
+    flex:0.5;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-color:aquamarine;
+}
+.deleteUser label{
+      font-size:40px;
+      font-weight: bold;
+}
+
+.deleteUser button{
+    font-size:20px;
+    font-weight: bold;
+    padding:10px;
+    cursor: pointer;
+    background-color:lightgreen;
+    border:none;
+    outline:none;
+    border-radius:5px;
+}
+
+
+
